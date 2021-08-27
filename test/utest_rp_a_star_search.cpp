@@ -38,7 +38,8 @@ std::vector<std::byte> ReadOSMData(const std::string &path) {
 //--------------------------------//
 //   Beginning RoutePlanner Tests.
 //--------------------------------//
-
+// Test Fixtures: Using the Same Data Configuration for Multiple Tests
+// https://google.github.io/googletest/primer.html#same-data-multiple-tests
 class RoutePlannerTest : public ::testing::Test {
   protected:
     std::string osm_data_file = "../map.osm";

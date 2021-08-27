@@ -8,3 +8,6 @@ build/
 bin/
 lib/
 .github/**
+
+# VSCode
+.vscode

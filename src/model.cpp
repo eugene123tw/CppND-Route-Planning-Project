@@ -37,6 +37,7 @@ static Model::Landuse::Type String2LanduseType(std::string_view type)
     return Model::Landuse::Invalid;
 }
 
+// Model Constructor
 Model::Model( const std::vector<std::byte> &xml )
 {
     LoadData(xml);
