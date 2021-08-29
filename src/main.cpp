@@ -59,7 +59,8 @@ int main(int argc, const char **argv)
     float start_y = 0.0f;
     float end_x = 0.0f;
     float end_y = 0.0f;
-
+    
+    std:: cout << "Please enter coordinate (start_x start_y end_x end_y): " << std::endl;
     std:: cin >> start_x >> start_y >> end_x >> end_y;
 
     // Build Model.

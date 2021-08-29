@@ -11,3 +11,5 @@ lib/
 
 # VSCode
 .vscode
+
+.DS_Store
