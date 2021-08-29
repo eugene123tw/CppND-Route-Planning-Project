@@ -51,7 +51,7 @@ RoutePlanner::ConstructFinalPath(RouteModel::Node *current_node) {
 
   while (current_node != start_node) {
     distance += current_node->distance(*(current_node->parent));
-    path_found.push_back(*current_node);
+    path_found.emplace_back(*current_node);
     current_node = current_node->parent;
   }
   path_found.emplace_back(*current_node);
